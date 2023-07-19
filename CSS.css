@@ -1,0 +1,75 @@
+
+h1{
+    color: blueviolet;
+    text-align: center;
+ }
+h4{
+    color: gold;
+    text-align: center;
+}
+div{
+    background-color: brown;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+}
+table{
+    border: 3px solid black;
+    border-collapse:collapse ;
+    text-align: center;
+}
+td,th{
+    border: 3px solid black;  
+    padding: 5px;
+}
+#key{
+    color:aquamarine;
+}
+.tic{
+    color: yellowgreen;
+}
+button{
+    background-color: antiquewhite;
+
+}button:hover{
+    background-color: aquamarine;
+}
+@media (min-width : 600px){
+    body{
+        background-color:blueviolet
+    }
+}
+@media (max-width:599px){
+    body{
+        background-color: brown
+    };
+}
+#cat{
+    display: flex;
+    flex-wrap: wrap;
+}
+#cat>div{
+    background-color: blue;
+    width: fit-content;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+
+}
+#grid{
+    display: grid;
+    background-color: pink;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 200px 200px auto  ;
+}
+.testgrid{
+    background-color: antiquewhite;
+    margin: 20px;
+    width: fit-content;
+    padding:20px ;
+}
